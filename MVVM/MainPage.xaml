@@ -32,15 +32,15 @@
 
 
 
-                        <Entry
+             <Entry
                 x:Name="EntryDolares"
                 Placeholder="Ingrese el valor en dolares"
                 Text="{Binding ValorDolares}" />
 
             <Entry
-                x:Name="EntryDolares"
-                Placeholder="Ingrese el valor en dolares"
-                Text="{Binding ValorDolares}" />
+                x:Name="EntryEuros"
+                Placeholder="Euros"
+                Text="{Binding ValorEuros}" />
 
         </VerticalStackLayout>
     </ScrollView>
